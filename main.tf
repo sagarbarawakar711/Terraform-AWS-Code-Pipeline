@@ -47,7 +47,7 @@ module "codepipeline" {
   github_repo           = "Docker-Image-Test"      
   github_branch         = "main"           
   github_connection_arn = "arn:aws:codeconnections:ca-central-1:461655781674:connection/034ccaa0-c7fb-4923-b0a5-d07436538026"
-  github_oauth_token  = "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"
+  github_oauth_token  = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   codebuild_project_name = module.codebuild_project.codebuild_project_name
 }
 
